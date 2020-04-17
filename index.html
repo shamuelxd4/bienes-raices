@@ -9,13 +9,43 @@
 </head>
 <body>
 
-  <nav class="navbar bg-dark navbar-dark navbar-expand-lg">
-    <a href="#" class="navbar-brand">RealState<span>GDL</span></a>
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar Navegacion" >
-      <span class="navbar-toggler-icon" ></span>
-    </button>
-    
-  </nav>
+  <!--barra superior que sea responsive la cual podra aparecer el menu cuando sea pantallas pequeñas-->
+  <!---->
+  <div class="container">
+    <nav class="navbar bg-dark navbar-dark navbar-expand-lg">
+      <a href="#" class="navbar-brand">RealState<span>GDL</span></a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar Navegacion" >
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      <!--cuando la pantalla es pequeña se mostrara el menu(sandwich) la cual se enlasa con la id y aria-controls y data-target-->
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav w-100 justify-content-end">          
+          <li class="nav-item">
+            <a href="#" class="nav-link">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Nosotros</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="anunciosDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              Anuncios
+            </a>
+            <div class="dropdown-menu" aria-labelledby="anunciosDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contacto</a>
+          </li>
+        </ul>
+      </div>        
+    </nav>
+  </div>
 
   <div id="slider" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
