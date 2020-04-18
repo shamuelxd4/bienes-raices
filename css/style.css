@@ -64,11 +64,15 @@ h1, h2, h3, h4 {
 }
 .btn-warning {
     background-color: lightslategrey;
-    border-color: transparent!important;
     color: white;
     font-weight: 700;
+    border: none;
 }
 .btn-warning:hover {
-    background-color: rgba(250, 193, 69, 0.671);
-    color: white;
+    background-color: rgba(240, 143, 16, 0.671);
+}
+/*MAS SOBRE NOSOTROS sobre-nosotros*/
+.sobre-nosotros h3 {
+    font-size: 1rem;
+    font-weight: 700;
 }
