@@ -1,0 +1,74 @@
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*cuando la pantalla sea pequeña la barra del menu es color oscuro*/
+.bg-success{
+    background-color:  #343a40!important;
+}
+
+/*grosor de las letras*/
+h1, h2, h3, h4 {
+    font-weight: 300;
+}
+
+/*query si la pantalla es grande sea la barra transparente*/
+@media (min-width: 768px) {
+    .barra.bg-success{
+        background-color: transparent!important;
+    }
+    .header{
+        position: relative;
+    }
+    .header .barra {
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+    }
+}
+
+/*mejorando el grosor de la letra y tamaño*/
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.navbar-brand span {
+    font-weight: 900;
+}
+    /*tipo de letra*/
+.navbar-dark .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: white;
+    font-size: 0.8rem;
+}
+        /*dropdown*/
+.dropdown-menu {
+    background-color: #343a40;
+}
+.dropdown-item {
+    color: white;
+}
+            /*cuando halla seleccion de anuncios se nota la barra seleccionada*/
+.dropdown-menu .dropdown-item:hover {
+    background-color: #414549be;
+    color: white;
+}
+/*caption*/
+.carousel-caption h3 {
+    font-size: 2.4rem;
+}
+.bloque-info p {
+    font-size: 1.4rem;
+}
+.btn-warning {
+    background-color: lightslategrey;
+    border-color: transparent!important;
+    color: white;
+    font-weight: 700;
+}
+.btn-warning:hover {
+    background-color: rgba(250, 193, 69, 0.671);
+    color: white;
+}
