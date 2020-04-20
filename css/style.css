@@ -76,3 +76,16 @@ h1, h2, h3, h4 {
     font-size: 1rem;
     font-weight: 700;
 }
+
+/*Anuncios*/
+.anuncios .card {
+    margin-bottom: 2rem;
+}
+.card-precio {
+    font-size: 1.1rem;
+    color: rgba(0, 151, 13, 0.856);
+    font-weight: 600;
+}
+.card-descripcion img {
+    margin-right: 0.5rem;
+}
