@@ -89,3 +89,39 @@ h1, h2, h3, h4 {
 .card-descripcion img {
     margin-right: 0.5rem;
 }
+/*encuentra*/
+.encuentra {
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    /*alto de la imagen*/
+.encuentra .row {
+    height: 25rem;
+}
+.encuentra h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+
+/*blog*/
+.entrada h3::after {
+    content:'';
+    display: block;
+    width: 8rem;
+    height: 0.2rem;
+    background-color: seagreen;
+    margin-top: 0.5rem;
+}
+.meta span {
+    Color: orange;
+}
+.btn-success {
+    background-color: rgba(0, 151, 13, 0.856);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-success:hover {
+    background-color: rgb(11, 141, 22);
+}
