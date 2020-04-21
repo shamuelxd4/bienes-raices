@@ -28,7 +28,6 @@ h1, h2, h3, h4 {
         width: 100%;
     }
 }
-
 /*mejorando el grosor de la letra y tamaño*/
 .navbar-brand {
     font-size: 2rem;
@@ -76,7 +75,6 @@ h1, h2, h3, h4 {
     font-size: 1rem;
     font-weight: 700;
 }
-
 /*Anuncios*/
 .anuncios .card {
     margin-bottom: 2rem;
@@ -103,8 +101,6 @@ h1, h2, h3, h4 {
     font-size: 2.2rem;
     font-weight: 900;
 }
-
-
 /*blog*/
 .entrada h3::after {
     content:'';
