@@ -145,5 +145,13 @@ h1, h2, h3, h4 {
 .testimoniales span {
     font-size: 1.4rem;
     font-weight: 900;
-    
+
+}
+/*footer*/
+.footer {
+    background-color:  #343a40!important;
+}
+.footer .nav-link {
+    color: white;
+    text-transform: uppercase;
 }
